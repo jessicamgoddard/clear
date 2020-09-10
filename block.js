@@ -28,7 +28,7 @@ const { registerBlockType } = wp.blocks; // Import registerBlockType() from wp.b
  * @return {?WPBlock}          The block, if it has been successfully
  *                             registered; otherwise `undefined`.
  */
-registerBlockType( 'pandp-blocks/clear, {
+registerBlockType( 'pandp-blocks/clear', {
 	// Block name. Block names must be string that contains a namespace prefix. Example: my-plugin/my-custom-block.
 	title: __( 'Clear' ), // Block title.
 	icon: icon, // Block icon from Dashicons → https://developer.wordpress.org/resource/dashicons/.
